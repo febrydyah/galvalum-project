@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Quicksand:wght@400;700&family=Raleway:wght@100;200;400;700&family=Ubuntu:wght@400;700&display=swap");
+
+body {
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: #f8f4ea;
+}
+
+nav a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.navbar .nav-item a {
+  color: #393e46;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.search_project {
+  color: #393e46;
+  padding-top: 80px;
+  min-height: 400px;
+}
+
+.search_project h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+}
+
+.search_project h1 span {
+  color: #9ffc34;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+
+.search_project form input {
+  width: 320px;
+  border-radius: 20px;
+  border-color: #9ffc34;
+}
+
+.search_project .button {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #393e46;
+  text-transform: uppercase;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 120px;
+  height: 40px;
+  padding: 8px 35px;
+  transition: all 0.3s ease 0s;
+}
+
+.search_project .button:hover {
+  background-color: #395a13;
+  box-shadow: 0px 15px 20px rgba(158, 235, 71, 0.712);
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+#galvalum {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #f4f4f4;
+}
+
+.galvalum {
+  justify-content: center;
+}
+
+.galvalum .gal_1 {
+  border-radius: 0px 15px 15px 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(25, 58, 3) 0%,
+    rgba(200, 250, 27, 1) 100%
+  );
+  padding: 20px;
+  display: flex;
+  width: 800px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.galvalum .gal_2 {
+  border-radius: 15px 0px 0px 15px;
+  margin-left: 550px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(25, 58, 3) 0%,
+    rgba(111, 255, 12, 1) 100%
+  );
+  width: 800px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.galvalum .gal_2 img {
+  padding-left: 20px;
+}
+
+.galvalum .gal_3 {
+  border-radius: 0px 15px 15px 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(25, 58, 3) 0%,
+    rgba(200, 250, 27, 1) 100%
+  );
+  display: flex;
+  padding: 20px;
+  width: 800px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.proyek h1 {
+  font-family: "Quicksand", sans-serif;
+}
+
+.proyek p {
+  font-family: "Fira Sans", sans-serif;
+}
